@@ -1,0 +1,70 @@
+body{
+    background-color: aquamarine;
+}
+.board {
+    width: 200px;
+    border: 5px solid;
+    border-color: grey;
+    margin:auto;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+}
+.square {
+    width: 50px;
+    height: 50px;
+    border: 5px solid grey;
+    float: left; 
+    box-sizing: border-box; 
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.zero{
+    background-color: rgb(176, 172, 172);
+    color: black;
+}
+.two{
+    background-color: white;
+    color: black;
+}
+.four{
+    background-color: lightslategray;
+    color: black;
+}
+.eight{
+    background-color: orange;
+    color: white;
+}
+.sixteen{
+    background-color: rgb(197, 143, 7);
+    color: white;
+}
+.thirtytwo{
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+.sixtyfour{
+    background-color: rgb(255, 30, 0);
+    color: white;
+}
+.onetwoeight{
+    background-color: rgb(236, 225, 103);
+    color: white;
+}
+.twofivesix{
+    background-color: rgb(247, 233, 70);
+    color: white;
+}
+.fivetwelve{
+    background-color: rgb(252, 234, 33);
+    color: white;
+}
+.onetwofour{
+    background-color: rgb(224, 206, 0);
+    color: white;
+}
+.twofoureight{
+    background-color: rgb(255, 170, 0);
+    color: white;
+}
